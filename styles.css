@@ -42,7 +42,7 @@ body {
   
   .top-container {
     position: relative;
-    background: url("../img/kutna.jpg") top right;
+    background: url("kutna.jpg") top right;
     background-size: cover;
     position: relative;
     width: 100%;
