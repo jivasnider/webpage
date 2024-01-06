@@ -1,0 +1,145 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    display: block;
+    margin-top: 150px;
+    font-size: 72px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive; 
+    padding-top: 150px;
+
+  }
+
+  
+  p {
+    color: #D8D9DA;
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+
+  }
+  
+  a{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #EAF6F6;
+  }
+  
+  .top-container {
+    position: relative;
+    background: url("../img/kutna.jpg") top right;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    padding-top: 100px;
+    border: 10px solid #272829;
+    border-width: 10px 0px 10px 0px;
+  }
+
+
+  .middle-container {
+    margin: 20px 0;
+  }
+  
+
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 40%;
+    margin: auto;
+  }
+
+  
+
+  .profile_pic{
+    width:180px
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+#block{
+  background-color: #D8D9DA;
+  height: 200px;
+  width: 400px;
+  border: 5px solid #272829;
+  border-radius: 20px;
+  margin:auto;
+  padding: 10px;
+}
+
+html{
+  background-color:#61677A;
+}
+
+.grid-container p {
+  color: #272829;
+}
+
+.exp {
+  margin-bottom: 75px;
+}
+
+.profile_pic{
+  border-top-left-radius: 50%  50%;
+  border-top-right-radius: 50%  50%;
+  border-bottom-right-radius: 50% 50%; 
+  border-bottom-left-radius: 50% 50%;
+}
+
+img{
+  border: 5px solid #272829;
+}
+
+h2{
+  color: #272829;
+  font-family: 'Dancing Script', cursive;
+  font-size: 64px;
+  margin: 20px;
+  
+}
+
+h3{
+  color: #272829;
+  font-size: 24px;
+}
+
+.footer{
+  background-color: #272829;
+  margin-bottom: -50px;
+}
+.footer li {
+  display: inline;
+  
+}
+.footer p {
+    font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
