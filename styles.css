@@ -8,7 +8,7 @@ body {
   h1 {
     display: block;
     margin-top: 25%;
-    font-size: 72px;
+    font-size: 5rem;
     color: #ffffff;
     font-family: 'Dancing Script', cursive; 
   }
@@ -116,7 +116,7 @@ img{
 h2{
   color: #272829;
   font-family: 'Dancing Script', cursive;
-  font-size: 64px;
+  font-size: 4rem;
   margin: 20px;
   
 }
