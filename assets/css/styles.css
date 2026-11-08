@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    display: block;
+    margin-top: 15%;
+    font-size: 5rem;
+    color: #fffaf0;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Dancing Script', cursive;
+  }
+  
+
+  p {
+    color: #cfcbc4;
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+
+  }
+  
+  a{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #EAF6F6;
+  }
+  
+  .top-container {
+    position: relative;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url("../img/kutna.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    border: 10px solid #736b5e;
+    border-width: 10px 0px 10px 0px;
+  }
+
+  .middle-container {
+    margin: 20px 0;
+  }
+  
+
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .profile_pic{
+    width:180px
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #block {
+    background-color: #2d3133;
+    min-height: 250px;
+    width: 450px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    border: 5px solid #545b5e;
+    border-radius: 20px;
+    margin: 0;
+  }
+
+
+
+  #block img{
+    margin-right:10px;
+    height: 50px;
+    border-top-left-radius: 50%  50%;
+    border-top-right-radius: 50%  50%;
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%;
+    border: 0px;
+  }
+  #block h3,#block img {
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  html{
+    background-color:#181a1b;
+    scroll-padding-top: 90px
+  }
+
+  .flex-container p {
+    color: #cfcbc4;
+  }
+
+.exp {
+  margin-bottom: 75px;
+}
+
+.profile_pic{
+  border-top-left-radius: 50%  50%;
+  border-top-right-radius: 50%  50%;
+  border-bottom-right-radius: 50% 50%; 
+  border-bottom-left-radius: 50% 50%;
+}
+
+img{
+  border: 5px solid #464b4e;
+}
+
+h2{
+  color: #cfcbc4;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  margin: 20px;
+  
+}
+
+h3{
+  color: #cfcbc4;
+  font-size: 24px;
+}
+
+.footer{
+  background-color: #272829;
+  margin-bottom: -50px;
+}
+.footer li {
+  display: inline;
+  
+}
+.footer p {
+    font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+.container{
+display: flex;
+gap: 20px;
+margin: auto;
+justify-content: center;
+align-items: center;
+padding-bottom: 10px;
+flex-wrap: wrap;
+}
+
+.container img{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.active {
+  width: 600px;
+  height: 500px;
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(24, 26, 27, 0.92);
+  padding: 0.6rem 5%;
+  border-bottom: 10px solid #736b5e;
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a{
+  color: #bab4ab;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  text-shadow: 0 0 10px #e8e6e3;
+}
+
+.nav-links li a[aria-current="page"] {
+  color: #fffaf0;
+  border-bottom: 2px solid #11999E;
+  padding-bottom: 4px;
+}
+
+/* ---------- Portfolio page ---------- */
+
+.project {
+  width: 90%;
+  max-width: 1110px; /* 3 cards of 350px + 2 gaps of 30px */
+  margin: 60px auto;
+}
+
+.project-title {
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #545b5e;
+}
+
+.project .intro {
+  width: auto;
+  margin: 0 0 30px;
+  text-align: left;
+}
+
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+}
+
+.portfolio-item {
+  width: 350px;
+  margin: 0;
+}
+
+.portfolio-item img,
+.portfolio-item video {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background-color: #ffffff;
+  border: 5px solid #545b5e;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.portfolio-item figcaption {
+  text-align: center;
+}
+
+.portfolio-item h3 {
+  margin: 15px 0 5px;
+}
+
+.portfolio-item p {
+  margin: 0;
+}
+
+
+
+/* ---------- Contact page ---------- */
+
+.contact-section {
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+.contact-email a {
+  font-size: 1.8rem;
+  margin: 0;
+}
